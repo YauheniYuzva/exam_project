@@ -1,0 +1,174 @@
+.requisites{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 108px;
+    margin-bottom: 64px;
+
+}
+
+.requisites h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 133%;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    padding-bottom: 24px;
+}
+
+.requisites p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    color: #5B5B5B;
+}
+
+.requisites .item_1{
+    width: 561px;
+}
+
+.requisites ul li {
+    list-style-type: none;
+}
+
+.requisites ul .head_word{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    padding-bottom: 16px;
+}
+
+.requisites ul .casual_word{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    color: #5B5B5B;
+}
+
+.requisites ul li a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    color: #5B5B5B;
+}
+
+.requisites ul li a:hover{
+    color: #F58A07;
+    text-decoration: underline;
+}
+
+.input input{
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+    width: 605px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    border-color:rgba(210, 218, 237, 0.17);
+}
+
+.input textarea{
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+    width: 605px;
+    padding-top: 32px;
+    padding-left: 32px;
+    border-color:rgba(210, 218, 237, 0.17);
+}
+
+.input_map{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.submit{
+    margin-top: 32px;
+    margin-bottom: 128px;
+}
+.submit .submit_btn{
+    background: #F58A07;
+    border-radius: 31px;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    padding: 19px 32px;
+}
+
+.submit .submit_btn:hover{
+    color: #F58A07;
+    background: #fff;
+}
+
+@media screen and (max-width: 1250px){
+    .input_map{
+        flex-direction: column-reverse;
+    }
+    .input input{
+        width: 100%;
+    }
+
+    .input textarea{
+        width: 100%;
+    }
+
+    .block-2{
+        text-align: center;
+    }
+
+    .requisites h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .block-2 iframe{
+        width: 100%;
+    }
+
+    .requisites{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .requisites h1{
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .requisites p{
+        text-align: center;
+    }
+    .submit .submit_btn{
+        width: 100%;
+    }
+
+    .center{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+
+
