@@ -11,6 +11,11 @@
 .bg{
     background-color: #DCEAF5;
 }
+
+.avatar img{
+    width: 50px;
+}
+
 .content_descr{
     display: flex;
     justify-content: space-between;
