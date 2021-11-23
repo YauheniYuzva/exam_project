@@ -28,6 +28,10 @@
     opacity: 0.87;
 }
 
+.avatar img{
+    width: 50px;
+}
+
 .content_blog_inner h1{
     font-family: 'Poppins';
     font-weight: 600;
